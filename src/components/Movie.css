@@ -58,3 +58,11 @@
     margin-right: 10px;
     font-size: 14px;
 }
+
+.movie a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-decoration: none;
+    color: inherit;
+}
