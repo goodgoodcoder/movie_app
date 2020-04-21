@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+/*
+<APP/> : component (JS를 통해 html에 return하는 기능)
+JSX = html + JS (React 개념)
+
+react application(ReactDom.render())은 한 번에 하나의 component(<App />)만 rendering 할 수 있으므로
+하나의 component 안에 다른 component를 포함시켜야 많은 component를 import 할 수 있다.
+
+component는 재사용할 수 있다. (React의 장점)
+*/
